@@ -4,10 +4,7 @@ import c_describe
 import d_match
 
 # List of file paths for the fingerprint images
-fingerprint_filepaths = [
-    './test-data/sams_leftthumb.jpeg',
-    './test-data/Samuel_fingerPrint_lefthand_thumb.png'
-]
+fingerprint_filepaths = []
 
 # Acquire and enhance fingerprints, then describe ridge endings and bifurcations
 fingerprint_data = []
